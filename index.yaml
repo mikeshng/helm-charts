@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  nginx-ingress:
+  - apiVersion: v1
+    appVersion: 0.30.0
+    created: "2021-11-24T15:01:09.170987672Z"
+    description: An nginx Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: 54fb38014d3f204c5ab8ce6c569078eca2ba3cf255c0e015c8ef97ebcc66e15d
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - name: ChiefAlexander
+    - email: Trevor.G.Wood@gmail.com
+      name: taharah
+    name: nginx-ingress
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - https://github.com/mikeshng/helm-charts/releases/download/nginx-ingress-1.36.3/nginx-ingress-1.36.3.tgz
+    version: 1.36.3
+generated: "2021-11-24T15:01:09.170994873Z"
