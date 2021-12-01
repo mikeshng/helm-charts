@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  my-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-12-01T18:54:50.746006179Z"
+    description: A Helm chart for Kubernetes
+    digest: f6521eedb070e2fd7171fb49882cedd3509e5a04251187921303c7e581aa62a7
+    name: my-app
+    type: application
+    urls:
+    - https://github.com/mikeshng/helm-charts/releases/download/my-app-0.1.0/my-app-0.1.0.tgz
+    version: 0.1.0
   nginx-ingress:
   - apiVersion: v1
     appVersion: v0.34.1
@@ -45,4 +56,4 @@ entries:
     urls:
     - https://github.com/mikeshng/helm-charts/releases/download/nginx-ingress-1.36.3/nginx-ingress-1.36.3.tgz
     version: 1.36.3
-generated: "2021-11-24T15:05:10.723007145Z"
+generated: "2021-12-01T18:54:50.746020679Z"
