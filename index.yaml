@@ -58,6 +58,27 @@ entries:
     version: 1.36.3
   open-cluster-management:
   - apiVersion: v1
+    appVersion: v0.7.0
+    created: "2021-12-09T14:48:54.623947354Z"
+    description: Open Cluster Management.
+    digest: e7e2fdfbcf3e7c3780f01330463db6f50c5cd406a55506b83d9991dff002a577
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - name: ChiefAlexander
+    - email: Trevor.G.Wood@gmail.com
+      name: taharah
+    name: open-cluster-management
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - https://github.com/mikeshng/helm-charts/releases/download/open-cluster-management-0.7.0/open-cluster-management-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v1
     appVersion: v0.5.0
     created: "2021-12-09T14:43:48.920510252Z"
     description: Open Cluster Management.
@@ -100,4 +121,4 @@ entries:
     urls:
     - https://github.com/mikeshng/helm-charts/releases/download/open-cluster-management-0.5.0/open-cluster-management-0.5.0.tgz
     version: 0.5.0
-generated: "2021-12-09T14:43:48.921030048Z"
+generated: "2021-12-09T14:48:54.623967155Z"
