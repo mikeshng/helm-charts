@@ -2,7 +2,7 @@
 ## Ref: https://github.com/kubernetes/ingress/blob/master/controllers/nginx/configuration.md
 ##
 controller:
-  name: controller
+  name: controller-test
   image:
     # registry value can be any of the following:
     #  us.gcr.io
